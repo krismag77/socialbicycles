@@ -1,0 +1,26 @@
+/* css code */
+#container {
+    width: 1280px;
+    margin: 30px auto;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    ul {
+        position: absolute;
+        li {
+            float: left;
+            &:hover > ul {
+                 display: inherit;
+            }
+        }
+        ul {
+            display: none;
+            clear: both;
+            left: 0;
+        }
+    }
+}
+
