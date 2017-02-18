@@ -110,6 +110,8 @@ nav ul li:hover > ul li {
    background: initial;
 }
 
+/* mobile */
+
 img#menu-trigger {
     display:none;
 }
